@@ -4,7 +4,7 @@
             <!-- <i class="fa fa-arrow-left" onclick="Back()"></i> -->
         </div>
         <p class="h2 text-center">Login To Vote</p>
-        <form action="" method="post">
+        <form action="./home.php" method="post">
             <!-- <div class="preview text-center">
                 <img class="preview-img" src="http://simpleicon.com/wp-content/uploads/account.png" alt="Preview Image" width="200" height="200"/>
                 <div class="browse-button">
