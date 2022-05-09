@@ -2,11 +2,11 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'feedbackApp');
+define('DB_NAME', 'kura');
 //Creating the database connection
 $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 //Check connection
 if($conn->connect_error){
     die('Connection Failed '.$conn->connect_error);
 }
-//echo 'Connection Successful'; //testing connetion
+//echo 'DB Connection Successful'; //testing connetion

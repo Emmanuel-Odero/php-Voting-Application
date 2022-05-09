@@ -1,10 +1,15 @@
-<?php include'./inc/header.php' ?>
+<?php 
+include'./inc/header.php';
+include'./models/login-model.php';
+include'./models/login-model.php';
+
+?>
 <div class="container">
        <div class="Back">
             <!-- <i class="fa fa-arrow-left" onclick="Back()"></i> -->
         </div>
         <p class="h2 text-center">Login To Vote</p>
-        <form action="./home.php" method="post">
+        <form action="#" method="post">
             <!-- <div class="preview text-center">
                 <img class="preview-img" src="http://simpleicon.com/wp-content/uploads/account.png" alt="Preview Image" width="200" height="200"/>
                 <div class="browse-button">
@@ -14,6 +19,11 @@
                 <span class="Error"></span>
             </div> -->
             <div class="form-group">
+                <label>Voter ID:</label>
+                <input class="form-control" type="number" name="voterID" required placeholder="Enter Your Voter ID"/>
+                <span class="Error"></span>
+            </div>
+            <!-- <div class="form-group">
                 <label>First Name:</label>
                 <input class="form-control" type="text" name="firstName" required placeholder="Enter Your First Name"/>
                 <span class="Error"></span>
@@ -22,7 +32,7 @@
                 <label>Sur Name:</label>
                 <input class="form-control" type="text" name="surName" required placeholder="Enter Your Sur Name"/>
                 <span class="Error"></span>
-            </div>
+            </div> -->
             <div class="form-group">
                 <label>Email:</label>
                 <input class="form-control" type="email" name="email" required placeholder="Enter Your Email"/>
