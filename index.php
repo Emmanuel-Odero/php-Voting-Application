@@ -14,8 +14,13 @@
                 <span class="Error"></span>
             </div> -->
             <div class="form-group">
-                <label>Full Name:</label>
-                <input class="form-control" type="text" name="fullname" required placeholder="Enter Your Full Name"/>
+                <label>First Name:</label>
+                <input class="form-control" type="text" name="firstName" required placeholder="Enter Your First Name"/>
+                <span class="Error"></span>
+            </div>
+            <div class="form-group">
+                <label>Sur Name:</label>
+                <input class="form-control" type="text" name="surName" required placeholder="Enter Your Sur Name"/>
                 <span class="Error"></span>
             </div>
             <div class="form-group">
